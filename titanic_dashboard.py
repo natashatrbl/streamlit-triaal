@@ -20,3 +20,6 @@ selected_gender = col2.selectbox(
     options=gender,
     label='Select gender'
 )
+
+df_plot = df[df['Embarked'] == selected_port]
+df_plot = df_plot[df_plot['Sex'] == selected_gender]
