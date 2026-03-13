@@ -38,7 +38,6 @@ hist_plot = px.histogram(data_frame=df_plot,
 col1.plotly_chart(hist_plot)
 
 # Plot Pie Chart
-
 pie_plot = px.pie(data_frame=df_plot_pie,
                   template='seaborn',
                   title='Count of Survived Passengers',
